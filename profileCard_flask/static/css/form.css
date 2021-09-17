@@ -1,0 +1,39 @@
+*{
+    margin: 5px;
+    padding: 10px;
+}
+body{
+    background-color: rgb(252, 225, 119);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    padding:100px;
+    border: 5px;
+    border-color: blue;
+}
+.box {
+    box-shadow: 0 4px 8px 0 rgba(62, 82, 99, 0.979);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: rgba(2, 255, 150, 0.87);
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(126, 179, 74);
+  }
+  .upperbox{
+      background-color: #fff;
+  }
+  .type{
+      border-radius: 15px;
+      border-width: 5px;
+      border-color: black;
+      box-shadow: rgb(13, 202, 123);
+  }
+  .submit{
+      border-color: black;
+      border-width: thick;
+      border-radius: 5px;
+  }

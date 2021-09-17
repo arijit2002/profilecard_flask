@@ -1,0 +1,58 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+body{
+  background:url("/static/bg.jpg");
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html{
+  height:100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+  font-family: arial;
+  background-color: rgba(2, 255, 150, 0.87);
+  padding: 5px;
+  border-radius: 8px;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+.title {
+  color:rgba(61, 80, 82, 0.651);
+  font-size: 18px;
+}
+.title:hover{
+  color:rgb(136, 104, 104);
+  font-size: 18px;;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor:pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+button:hover, a:hover {
+  opacity: 0.6;
+}
+img {
+  border-radius: 20px;
+}

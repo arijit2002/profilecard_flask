@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Profile</title>
+</head>
+<body>
+    <br><br><br>
+    <h2 style="text-align:center">Profile Card</h2>
+    <div class="card">
+        <img src="{{ url_for('static', filename='/1nSy13Zy.jpg') }}" alt="Arijit" style="width: 80%" >
+        <h1>Arijit Das</h1>
+        <p class="title">Computerphile</p>
+        <p></p>
+        <div style="margin: 24px 0;">
+            <a href="https://github.com/arijit2002" target="_main"><i class="fa fa-github" ></i></a> 
+            <a href="https://twitter.com/ARIJITDAS2002" target="_main"><i class="fa fa-twitter-square"></i></a>  
+            <a href="https://www.linkedin.com/in/arijit-das-30140620a" target="_main"><i class="fa fa-linkedin"></i></a>   
+        </div>
+        <form action="/form" target="_main" method="POST">
+            <p><button>Contact</button></p>
+        </form>
+    </div>
+</body>
+</html>
